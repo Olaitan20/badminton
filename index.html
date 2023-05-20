@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <video src="./images/pexels-cottonbro-studio-10340712-4096x2160-25fps.mp4" autoplay loop muted id="backgroundvideo"></video>
+    
+        <!-- nav bar -->
+        <div id="content" class="flex justify-between">
+            <h1 class="uppercase font-bold ">Barnet Club</h1>
+            <img src="./images/menu-4-line.svg" alt="" id="hamburger" class="md:w-[40px]">
+        </div>
+        <!-- collasped menu -->
+         <div class="hidden" id="nav-content">
+            <div class="px-20 mt-5">
+                <img src="./images/close.svg" alt="" class="hidden md:hidden" id="close">
+            </div>
+             <ul class=" text-center uppercase font-bold">
+            
+                <li class=" mt-20 mb-20 "><a href="#" class="hover:underline">home</a></li>
+
+                <li class="mb-20"><a href="#">Our teams</a></li>
+
+                <li class="mb-20"><a href="#">junior badminton</a></li>
+
+                <li class="mb-20">gallery</li>
+
+                <li class="mb-20">membership</li>
+                
+               
+            </ul>   
+        </div>
+        <!-- text content -->
+        <div id="text-content" class="text-white">
+            <h1 class="text-3xl mb-2 font-bold">Barnet Badminton Club</h1>
+            <p class="mb-2 font-thin text-sm">We are a friendly badminton club based within the Borough of Barnet, North London.</p>
+            <p class="font-thin text-sm ">We play in the Middlesex County League.</p>
+        </div> 
+    </header>
+
+    <section class="p-[80px] flex items-center justify-between ">
+       <div class="w-5/12">
+        <img src="./images/flou-gaupr-TiWoNYXvFIM-unsplash.jpg" alt="Badminton Player">
+       </div>
+
+       <div class="w-6/12 ">
+        <h1 class="text-4xl uppercase font-bold mb-4">BUILT FOR PERFORMERS</h1>
+        <p class="font-medium text-xl mb-4">Achieving excellence in sports demands exceptional talent, grit, perseverance and determination. We believe protecting and managing wealth requires a similar mindset, passion and discipline.</p>
+        <p>We know the complex and evolving challenges faced by athletes. That is why we take the time to understand your specific situation, simplify your experience and leverage decades of experience with athletes with an objective of protecting your wealth across every stage of your life.</p>
+       </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
